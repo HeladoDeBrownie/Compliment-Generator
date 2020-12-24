@@ -7,6 +7,8 @@ var grammar = tracery.createGrammar({
         "you are #aJoy#",
         "you have #aNice# #quality#",
         "your #somethingThatMatters# #matters#",
+        "#people# are better off since you exist",
+        "#youHaveGoodTaste#",
     ],
 
     work: [
@@ -24,6 +26,7 @@ var grammar = tracery.createGrammar({
     workModifier: [
         "during #tough# times",
         "even when things are #tough#",
+        "for the benefit of #people#",
         "to make #people# feel #good#",
     ],
 
@@ -37,7 +40,9 @@ var grammar = tracery.createGrammar({
         "others",
         "people",
         "people around you",
+        "the people #youChooseToBeAround#",
         "those you care about",
+        "your friends",
     ],
 
     good: [
@@ -110,11 +115,39 @@ var grammar = tracery.createGrammar({
     ],
 
     matters: [
-        "is something to be valued",
+        "is something to be #valued#",
         "is valuable for its own sake",
         "matters",
         "will all be worth it",
         "will be worth it in the end",
+    ],
+
+    valued: [
+        "celebrated",
+        "cherished",
+        "proud of",
+        "valued",
+    ],
+
+    youHaveGoodTaste: [
+        "you have good taste in #somethingTasteful#",
+    ],
+
+    somethingTasteful: [
+        "clothing",
+        "#friends#",
+    ],
+
+    friends: [
+        "friends",
+        "the people #youChooseToBeAround#",
+    ],
+
+    youChooseToBeAround: [
+        "whose company you keep",
+        "you choose to be around",
+        "you keep near you",
+        "you spend your time with",
     ],
 
     emoji: [
