@@ -2,18 +2,55 @@ var grammar = tracery.createGrammar({
     origin: "#compliment.capitalize#! #emoji#",
 
     compliment: [
-        "I appreciate how hard you work",
-        "you have a nice #niceQuality#",
+        "I appreciate how hard you #work##maybeWorkModifier#",
+        "you have #aNice# #quality#",
     ],
 
-    niceQuality: [
+    work: [
+        "make an effort",
+        "try",
+        "work",
+    ],
+
+    maybeWorkModifier: [
+        "",
+        "",
+        " #doSomethingModifier#",
+    ],
+
+    doSomethingModifier: [
+        "even when things are tough",
+        "to make people around you feel good",
+    ],
+
+    aNice: [
+        "an adorable",
+        "a lovely",
+        "a nice",
+        "a radiant",
+    ],
+
+    quality: [
         "laugh",
         "smile",
     ],
 
     emoji: [
-        "#emojiEyes##emojiMouth#",
+        "#maybeEmojiEyebrows##emojiEyes##emojiMouth#",
         "#emojiUncommon#",
+    ],
+
+    maybeEmojiEyebrows: [
+        "",
+        "",
+        "",
+        "",
+        "#emojiEyebrows#",
+    ],
+
+    emojiEyebrows: [
+        ">",
+        "}",
     ],
 
     emojiEyes: [
@@ -31,6 +68,8 @@ var grammar = tracery.createGrammar({
 
     emojiMouthUncommon: [
         "D",
+        "]",
+        "}",
         "3",
         "o",
         "O",
@@ -39,6 +78,7 @@ var grammar = tracery.createGrammar({
     emojiUncommon: [
         "^^",
         "^_^",
+        "(:",
     ],
 })
 
