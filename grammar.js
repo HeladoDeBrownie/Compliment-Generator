@@ -91,6 +91,11 @@ var grammar = tracery.createGrammar({
         "#near#",
     ],
 
+    near: [
+        "near",
+        "nearby",
+    ],
+
     yourFriend: [
         "#friend#s with you",
         "your #friend#",
