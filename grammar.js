@@ -79,15 +79,73 @@ var grammar = tracery.createGrammar({
     ],
 
     aJoy: [
-        "a joy #toBeAround#",
-        "one of the good things in this world",
+        "#aJoy_# #toBeAround#",
+        "one of the #goodBetterBest# things #inThisWorld#",
+    ],
+
+    aJoy_: [
+        "a joy",
+        "a pleasure",
+        "fun",
+        "someone I #amLucky#",
+    ],
+
+    amLucky: [
+        "am #fortunate#",
+        "consider myself #fortunate#",
+        "count myself #fortunate#",
+    ],
+
+    fortunate: [
+        "fortunate",
+        "lucky",
     ],
 
     toBeAround: [
         "to be around",
         "to exist near",
         "to know",
-        "to live in the same time with",  
+        "to #live# in the same time with",
+    ],
+
+    live: [
+        "be alive",
+        "exist",
+        "live",
+    ],
+
+    goodBetterBest: [
+        "good",
+        "good",
+        "good",
+        "good",
+        "better",
+        "best",
+    ],
+
+    inThisWorld: [
+        "in the history of #humanity#",
+        "in this world",
+        "on this planet #weCallEarth#",
+        "to come out of the Big Bang",
+    ],
+
+    humanity: [
+        "humanity",
+        "#theEarth#",
+        "the universe",
+        "the world",
+    ],
+
+    theEarth: [
+        "Earth",
+        "the earth",
+    ],
+
+    weCallEarth: [
+        "#theEarth",
+        "third from our sun",
+        "we call #theEarth#",
     ],
 
     aNice: [
@@ -98,8 +156,27 @@ var grammar = tracery.createGrammar({
     ],
 
     quality: [
+        "#aura#",
         "laugh",
         "smile",
+        "way of #doingSomethingNice#"
+    ],
+
+    aura: [
+        "aura",
+        "energy",
+    ],
+
+    doingSomethingNice: [
+        "#being#",
+        "doing things",
+        "letting #people# know that things will be all right",
+        "making #people# feel #good#",
+    ],
+
+    being: [
+        "being",
+        "existing",
     ],
 
     somethingThatMatters: [
@@ -134,8 +211,11 @@ var grammar = tracery.createGrammar({
     ],
 
     somethingTasteful: [
+        "art",
         "clothing",
         "#friends#",
+        "#hobbies#",
+        "music",
     ],
 
     friends: [
@@ -148,6 +228,18 @@ var grammar = tracery.createGrammar({
         "you choose to be around",
         "you keep near you",
         "you spend your time with",
+    ],
+
+    hobbies: [
+        "hobbies",
+        "pastimes",
+        "the things you strive toward #eachDay#",
+    ],
+
+    eachDay: [
+        "all the time",
+        "each day",
+        "on a daily basis",
     ],
 
     emoji: [
@@ -186,8 +278,16 @@ var grammar = tracery.createGrammar({
         "]",
         "}",
         "3",
+        "#emojiMouthAstonished#",
+        ">",
+        "*",
+    ],
+
+    emojiMouthAstonished: [
         "o",
         "O",
+        "v",
+        "V",
     ],
 
     emojiUncommon: [
