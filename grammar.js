@@ -172,7 +172,7 @@ var grammar = tracery.createGrammar({
     ],
 
     weCallEarth: [
-        "#theEarth",
+        "#theEarth#",
         "third from our sun",
         "we call #theEarth#",
     ],
