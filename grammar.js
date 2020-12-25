@@ -341,6 +341,7 @@ var grammar = tracery.createGrammar({
     emojiUncommon: [
         "^#_.limit10#^",
         "(:",
+        "c:",
     ],
 
     _: [
