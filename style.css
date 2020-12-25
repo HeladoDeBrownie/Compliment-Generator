@@ -1,8 +1,7 @@
 html {
     animation:      fade-in 2s;
-    background:     rgb(233, 222, 255);
-    box-shadow:     inset 0 0 128px rgb(33, 16, 33);
-    color:          rgb(33, 16, 33);
+    background:     linear-gradient(#5941A9, #091540);
+    color:          #E5D4ED;
     font-family:    Arial, Helvetica, sans-serif;
     font-size:      16pt;
     min-height:     100%;
@@ -16,24 +15,23 @@ body {
 }
 
 a {
-    color:  rgb(17,8,136);
+    color: #EDD3C4;
 }
 
 button {
     -webkit-appearance: none;
-    background:         rgb(33, 16, 33);
-    color:              rgb(233, 222, 255);
+    background:         #E5D4ED;
+    color:              #091540;
     font-size:          75%;
     height:             32px;
 }
 
 .information {
-    color:      rgb(133,119,144);
     font-size:  75%;
 }
 
 #content {
-    font-size:  150%;
+    font-size:  125%;
 }
 
 #result {
