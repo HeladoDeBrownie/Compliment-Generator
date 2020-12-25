@@ -3,6 +3,7 @@ var grammar = tracery.createGrammar({
 
     compliment: [
         "I appreciate how hard you #work##maybeWorkModifier#",
+        "I feel #safe# #aroundYou#",
         "I like being #yourFriend#",
         "you are #aJoy#",
         "you have #aNice# #quality#",
@@ -65,6 +66,28 @@ var grammar = tracery.createGrammar({
     maybeD: [
         "",
         "d",
+    ],
+
+    safe: [
+        "calm",
+        "good",
+        "like nothing will harm me",
+        "protected",
+        "safe",
+    ],
+
+    aroundYou: [
+        "around you",
+        "when you're #here#",
+        "with you #here#",
+    ],
+
+    here: [
+        "around",
+        "close",
+        "here",
+        "here with me",
+        "#near#",
     ],
 
     yourFriend: [
@@ -192,6 +215,7 @@ var grammar = tracery.createGrammar({
     ],
 
     matters: [
+        "#comparativelyMatters# than you realize",
         "is something to be #valued#",
         "is valuable for its own sake",
         "matters",
@@ -204,6 +228,17 @@ var grammar = tracery.createGrammar({
         "cherished",
         "proud of",
         "valued",
+    ],
+
+    comparativelyMatters: [
+        "is more valuable #maybeToPeople#",
+        "makes #people# happier",
+        "matters more",
+    ],
+
+    maybeToPeople: [
+        "",
+        "to #people#",
     ],
 
     youHaveGoodTaste: [
