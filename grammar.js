@@ -51,6 +51,7 @@ var grammar = tracery.createGrammar({
         "happy",
         "like they #areGood#",
         "nice",
+        "#safe#",
         "valid",
         "wanted",
         "welcome#maybeD#",
@@ -71,7 +72,7 @@ var grammar = tracery.createGrammar({
     safe: [
         "calm",
         "good",
-        "like nothing will harm me",
+        "like nothing bad can happen",
         "protected",
         "safe",
     ],
@@ -204,14 +205,17 @@ var grammar = tracery.createGrammar({
 
     somethingThatMatters: [
         "capacity for #capacityThatMatters#",
+        "courage",
         "existence",
         "hard work",
     ],
 
     capacityThatMatters: [
+        "affection",
         "friendship",
         "kindness",
         "love",
+        "positive change",
     ],
 
     matters: [
