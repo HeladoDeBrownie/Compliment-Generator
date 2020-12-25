@@ -280,7 +280,6 @@ var grammar = tracery.createGrammar({
         "3",
         "#emojiMouthAstonished#",
         ">",
-        "*",
     ],
 
     emojiMouthAstonished: [
