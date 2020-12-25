@@ -287,9 +287,14 @@ var grammar = tracery.createGrammar({
     ],
 
     emoji: [
-        "#maybeEmojiEyebrows##emojiEyes##emojiMouth#",
+        "#emojiCommon#",
+        "#emojiCommon#",
+        "#emojiCommon#",
+        "#emojiCommon#",
         "#emojiUncommon#",
     ],
+
+    emojiCommon: "#maybeEmojiEyebrows##emojiEyes##emojiMouth#",
 
     maybeEmojiEyebrows: [
         "",
